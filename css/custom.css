@@ -205,7 +205,7 @@ body{
     font-family: var(--default-font);
     font-size: 18px;
     font-weight: 600;
-    color: var(--accent-color);
+    color: black;
     border-radius: 100px;
 	text-transform: capitalize;
     position: relative;
@@ -216,7 +216,7 @@ body{
     box-shadow: none;
     transition: 0.2s transform;
     background: transparent;
-    border: 2px solid var(--accent-color);
+    border: 2px solid black;
     align-items: center;
     justify-content: center;
     padding: 10px 45px 10px 25px;
@@ -857,7 +857,7 @@ header.main-header .header-sticky.active{
 .about-us-image .about-us-image-1 img{
 	border-radius: 999px;
 	aspect-ratio: 1/1.7;
-	object-fit: cover;
+	object-fit: fill;
 }
 
 .about-us-image .about-us-image-1{
@@ -1441,7 +1441,7 @@ header.main-header .header-sticky.active{
 
 .home-contact-form{
 	padding: 100px 0 0;
-	background: url('../images/home-contact-form-bg.jpg') no-repeat center center;
+	background: url('../images/Hair-Transplant-Success-Rate.jpg') no-repeat center center;
     background-size: cover;
 	position: relative;
 	z-index: 1;
@@ -1485,7 +1485,7 @@ header.main-header .header-sticky.active{
 }
 
 .contact-form{
-    background-color: var(--primary-color);
+    background-color: rgb(12, 247, 247);
     padding: 80px 100px;
     height: 100%;
 }
@@ -3287,7 +3287,8 @@ header.main-header .header-sticky.active{
 }
 
 .contact-us-form{
-	background-color: var(--primary-color);
+	background-color: rgb(10, 242, 242);
+	
 	padding: 60px 0;
 	width: 100%;
 }
@@ -3304,15 +3305,15 @@ header.main-header .header-sticky.active{
 	border-top: 0;
 	border-left: 0;
 	border-right: 0;
-	border-bottom: 1px solid var(--transparent-color);
+	border-bottom: 1px solid black;
 	border-radius: 0;
-	color: var(--secondry-color);
+	color: black;
 	outline: none;
 	box-shadow: none;
 }
 
 .contact-us-form .form-group .form-control::placeholder{
-	color: var(--transparent-color);
+	color: black;
 	font-size: 16px;
 	font-weight: 500;
 	text-transform: capitalize;
