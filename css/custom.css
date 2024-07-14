@@ -668,7 +668,7 @@ header.main-header .header-sticky.active{
 
 .hero{
 	padding: 120px 0;
-	background: url('../images/half-circle-img.png') no-repeat bottom right 30px, rgb(132, 106, 106);
+	background: url('../images/half-circle-img.png') no-repeat bottom right 30px, #bc8f8f;
 	position: relative;
 }
 
@@ -694,7 +694,7 @@ header.main-header .header-sticky.active{
 }
 
 .hero-content .section-title h1{
-	color: var(--accent-color);
+	color: black;
 }
 
 .hero-body{
@@ -704,7 +704,7 @@ header.main-header .header-sticky.active{
 .hero-body p{
     font-size: 18px;
 	font-weight: 400;
-    color: var(--transparent-color);
+    color: white;
 }
 
 .hero-footer{
@@ -1732,7 +1732,7 @@ header.main-header .header-sticky.active{
 
 .subpage-header{
 	padding: 150px 0 100px;
-	background: rgb(132, 106, 106) url('../images/half-shape.png') no-repeat 6% 100%;
+	background: #bc8f8f url('../images/half-shape.png') no-repeat 6% 100%;
 	background-size: 19% auto;
 	position: relative;
 }
@@ -1760,7 +1760,7 @@ header.main-header .header-sticky.active{
 .subpage-header-box h1{
 	font-family: var(--accent-font);
 	font-size: 48px;
-	color: var(--accent-color);
+	color: white;
 	margin-bottom: 10px;
 }
 
@@ -2209,7 +2209,7 @@ header.main-header .header-sticky.active{
 .our-services-item{
 	background: #4BAAC8;
 	padding: 30px;
-	height: calc(100% - 30px);
+	
 	margin-bottom: 30px;
 }
 
